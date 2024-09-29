@@ -24,7 +24,7 @@ body {
   border-radius: 3px;
   font-size: 16px;
   padding: 12px 20px;
-  cursor: pointer;
+  cursor:pointer;
   position: fixed;
   top: 20px;
   letter-spacing: 1px;
@@ -61,29 +61,32 @@ body {
 }
 
 .box {
-  background-image: url('https://media.giphy.com/media/EZqwsBSPlvSda/giphy.gif');
+  background-image: url('https://user-images.githubusercontent.com/14011726/94132137-7d4fc100-fe7c-11ea-8512-69f90cb65e48.gif');
   background-repeat: no-repeat;
   background-size: 500px 500px;
   position: relative;
   height: 125px;
   width: 125px;
   transition: 0.4s ease;
+
 }
 
 .box::after {
   content: '';
-  background-color: #f6e58d;
+  background-color: #f1cb09;
   position: absolute;
   top: 8px;
   right: -15px;
   height: 100%;
   width: 15px;
   transform: skewY(45deg);
+  border-radius: 50%;
 }
 
 .box::before {
   content: '';
-  background-color: #f9ca24;
+  background-color: #f3db08;
+  border-radius: 50%;
   position: absolute;
   bottom: -15px;
   left: 8px;
